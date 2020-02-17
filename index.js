@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { render } from 'react-dom';
 import Hello from './Hello';
 import './style.css';
+import comment from 'test';
 
 class App extends Component {
   constructor() {
@@ -18,6 +19,7 @@ class App extends Component {
         <p>
           Start editing to see some magic happen :)
         </p>
+        <comment />
       </div>
     );
   }
